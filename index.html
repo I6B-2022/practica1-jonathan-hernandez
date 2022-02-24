@@ -1,70 +1,93 @@
-<!DOCTYPE html>
-<html lang="es">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>ENTRETENIMIENTO</title>
-    <style>
-    li strong{
-        color: rgb(5, 5, 5);
-    }
-        h2{
-            color: chartreuse;
-        }
+<html>
+<style>
+body
 
-        p{
-            color: coral;
-        }
-        p strong{
-            color: blue;
-        }
-    </style>
-</head>
-<body>
-    <header>Tarea</header>
-    <h1>BIENVENIDO AL EJERCICIO</h1>
-    <section> <Strong>En este ejercicio aprenderas CSS</Strong></section>  
-    <ul>
-    <li><h2>Tema 1</h2></li>    
-    <p>Introduccion a HTML y CSS</p>
-    <li><h2>Tema 2</h2></li>    
-    <p>Introduccion a <Strong>CSS</Strong></p>
-    <li><h3><strong>Tema 3</strong></h3></li>
-    <p>Introduccion a JS</p>
-    </ul>
+{
+padding: 0;
+margin: 0;
+width:100%;
+height:100%;
+text-align:center;
+font-family: sans-serif;
+font-weight: bold;
+}
 
-    <table>
+header
+{
+height: 20%;
+width: 100%;
+background-color: gray;
+float:none;
+display:flex;
+justify-content: center;
+align-items: center;
+}
 
-    </table>
-    <table> 
+nav
+{
+height: 10%;
+width: 100%;
+background-color: orange;
+float:none;
+display:flex;
+justify-content: center;
+align-items: center;
+}
 
-    </table>
+section
+{
+height: 65%;
+width: 100%;
+background-color: blue;
+float:none;
+display:flex;
+justify-content: center;
+align-items: center;
+}
 
-    <br>
-    <br>
-    <br>
+article
+{
+height: 94%;
+width: 68%;
+background-color: lightblue;
+float:left;
+display:flex;
+justify-content: center;
+align-items: center;
+}
 
-    <form>
-        <label>Nombre:</label>
-        <label">SI</label>
-        <input type="checkbox">
-        <label">NO</label>
-        <input type="checkbox">
-        <label>HOMBRE</label>
-        <input type="radio">
-        <label>MUJER</label>
-        <input type="radio">
-        <input type="text">
-        <input type="color">
-        <input type="date">
-        <input type="email">
-        <input type="search">
-        <input type="file">
-    </form>
-
+aside
+{
+height: 94%;
+width: 30%;
+background-color: green;
+float: right;
+display:flex;
+justify-content: center;
+align-items: center;
 
 
+}
 
-</body>
+footer
+{
+height: 5%;
+width: 100%;
+background-color: black;
+position:absolute;
+color:white;
+display:flex;
+justify-content: center;
+align-items: center;
+}
+
+</style>
+
+<header> cabecera </header>
+<nav> Menú </nav>
+<section>
+<article> Articulo 1 </article>
+<aside> Barra lateral</aside>
+</section>
+<footer> Pie de pagina </footer>
 </html>
